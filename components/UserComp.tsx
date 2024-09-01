@@ -33,6 +33,7 @@ const UserProfile = ({ user }: Props) => {
         <div className='container mx-auto p-4'> 
         <h1 className='text-3xl font-bold mb-4'> User Information </h1>
             <ul className='grid w-[70%] lg:w-1/2'>
+            
                 <li>
                     <p>Name</p>
                     <span>{user.name}</span>
